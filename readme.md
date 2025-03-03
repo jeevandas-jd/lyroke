@@ -1,27 +1,26 @@
-Lyroke 🎶
-Lyroke is a work-in-progress project aiming to build a music recognition and lyrics extraction system. The final goal is to create a CLI-based lyrical video, where a song plays in the background and synced lyrics appear on the command line with minimal latency.
+# 🎶 Lyroke  
 
-This project is currently read-only and under development.
+Lyroke is a **CLI-based music recognition and lyrics extraction tool**. The goal is to create a **lyrical video experience in the command line**, where a song plays in the background and lyrics appear in sync with minimal latency.  
 
-How It Works (For Now)
-Fetches lyrics using the Genius API.
-Lets you browse an artist’s songs and view their lyrics in the CLI.
-Setup
-Install dependencies:
-bash
-Copy
-Edit
+🚧 **Project Status:** Read-Only | 🛠 **Work in Progress**  
+
+---
+
+## 🌟 Features  
+✅ Search for an artist and list their songs  
+✅ View lyrics directly in the terminal  
+✅ Uses the Genius API for lyrics extraction  
+
+---
+
+## 🚀 Future Plans  
+🎵 **Music Recognition:** Identify songs from audio input  
+📝 **Real-time Lyric Sync:** Display lyrics in perfect time with the song  
+💻 **Enhanced CLI Visuals:** Smooth scrolling and stylish lyric display  
+
+---
+
+## 🛠 Setup & Usage  
+### 1️⃣ Install Dependencies  
+```bash
 pip install lyricsgenius python-dotenv
-Add your Genius API key to a .env file:
-ini
-Copy
-Edit
-GENIUS_API_TOKEN=your-genius-api-key
-Run the script:
-bash
-Copy
-Edit
-python lyroke.py
-Future Plans
-Music recognition from audio.
-Real-time lyric syncing with background music.
