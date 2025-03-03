@@ -1,0 +1,3 @@
+[console_scripts]
+lyrics_extractor = lyrics_extractor.lyrics:SongLyrics
+
